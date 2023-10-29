@@ -1,0 +1,276 @@
+.imageTop {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.imageTop:lang(en) {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 100px;
+}
+.imageTop img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+
+.historyBody {
+  display: block;
+  width: 95%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #414142;
+}
+.historyBody h1 {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.historyImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.contactAllDetailPart {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.contactImage {
+  border-radius: 20px;
+  box-shadow: 0px 8px 5px 0px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: auto;
+}
+.part1 {
+  display: flex;
+  width: 250px;
+  border-bottom: 2px dotted #414142;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.part2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 200px;
+  margin-bottom: 20px;
+}
+.contactDetail2 {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.customerMessage {
+  display: block;
+}
+.customerMessagePart1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.submitBtn {
+  width: 150px;
+  padding: 10px;
+  background-color: #00bed7;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #00bed7;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+.submitBtn:hover {
+  background-color: #00abc2;
+}
+.titleOfMessage {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* inputs : */
+.form input[type="text"] {
+  box-sizing: border-box;
+  width: 100%;
+  height: calc(3em + 2px);
+  margin: auto;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  background: #fff;
+  resize: none;
+  outline: none;
+}
+.form input[type="text"][required]:focus {
+  border-color: #00bafa;
+}
+.form input[type="text"][required]:focus + label[placeholder]:before {
+  color: #00bafa;
+}
+.form input[type="text"][required]:focus + label[placeholder]:before,
+.form input[type="text"][required]:valid + label[placeholder]:before {
+  transition-duration: 0.2s;
+  -webkit-transform: translate(0, -1.5em) scale(0.9, 0.9);
+  transform: translate(0, -1.5em) scale(0.9, 0.9);
+}
+.form input[type="text"][required]:invalid + label[placeholder][alt]:before {
+  content: attr(alt);
+}
+.form input[type="text"][required] + label[placeholder] {
+  display: block;
+  pointer-events: none;
+  line-height: 1.25em;
+  margin-top: calc(-3em - 2px);
+  margin-bottom: calc((3em - 1em) + 2px);
+}
+.form input[type="text"][required] + label[placeholder]:before {
+  content: attr(placeholder);
+  display: inline-block;
+  margin: 0 calc(1em + 2px);
+  padding: 0 2px;
+  color: #898989;
+  white-space: nowrap;
+  transition: 0.3s ease-in-out;
+  background-image: linear-gradient(to bottom, #fff, #fff);
+  background-size: 100% 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* text setting */
+.form input[type="text"] {
+  box-sizing: border-box;
+  width: 80%;
+  height: calc(3em + 2px);
+  margin: 0 0 1em;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  background: #fff;
+  resize: none;
+  outline: none;
+  margin-top: 20px;
+}
+.form textarea {
+  box-sizing: border-box;
+  width: 90%;
+  height: calc(3em + 2px);
+  margin: 0 0 1em;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  background: #fff;
+  resize: none;
+  outline: none;
+  margin-top: 20px;
+}
+.form input[type="text"][required]:focus,
+.form textarea[required]:focus {
+  border-color: #00bafa;
+}
+.form input[type="text"][required]:focus + label[placeholder]:before,
+.form textarea[required]:focus + label[placeholder]:before {
+  color: #00bafa;
+}
+.form input[type="text"][required]:focus + label[placeholder]:before,
+.form input[type="text"][required]:valid + label[placeholder]:before {
+  transition-duration: 0.2s;
+  -webkit-transform: translate(0, -1.5em) scale(0.9, 0.9);
+  transform: translate(0, -0.9em) scale(0.9, 0.9);
+}
+.form textarea[required]:valid + label[placeholder]:before,
+.form textarea[required]:focus + label[placeholder]:before {
+  transition-duration: 0.2s;
+  -webkit-transform: translate(0, -1.5em) scale(0.9, 0.9);
+  transform: translate(0, -1.7em) scale(0.9, 0.9);
+}
+.form input[type="text"][required]:invalid + label[placeholder][alt]:before,
+.form textarea[required]:invalid + label[placeholder][alt]:before {
+  content: attr(alt);
+}
+.form input[type="text"][required] + label[placeholder],
+.form textarea[required] + label[placeholder] {
+  display: block;
+  pointer-events: none;
+  line-height: 1.25em;
+  margin-top: calc(-3em - 2px);
+  margin-bottom: calc((3em - 1em) + 2px);
+}
+.form input[type="text"][required] + label[placeholder]:before,
+.form textarea[required] + label[placeholder]:before {
+  content: attr(placeholder);
+  display: inline-block;
+  margin: 0 calc(1em + 2px);
+  padding: 0 2px;
+  color: #898989;
+  white-space: nowrap;
+  transition: 0.3s ease-in-out;
+  background-image: linear-gradient(to bottom, #fff, #fff);
+  background-size: 100% 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.form {
+  width: 90%;
+  display: block;
+  margin: auto;
+  height: 100%;
+  margin-bottom: 30px;
+  margin-top: 70px;
+}
+@media screen and (max-width: 1300px) {
+  .imageTop {
+    margin-top: 72px;
+  }
+  .contactAllDetailPart {
+    display: block;
+    text-align: center;
+  }
+  .contactDetail2 {
+    display: block;
+  }
+  .contactDetail2 div {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .part1 {
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 776px) {
+  .imageTop {
+    margin-top: 50px;
+  }
+  .imageTop:lang(en) {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .customerMessagePart1 {
+    display: block;
+  }
+  .contactImage {
+    width: 250px;
+    height: auto;
+  }
+  .form input[type="text"] {
+    width: 90%;
+  }
+}

@@ -1,0 +1,78 @@
+.curNavbar {
+    width: 100%;
+    display: block;
+}
+
+.curNavbar a {
+    font-weight: bold;
+    display: block;
+    width: 100%;
+}
+
+.arrowDropDown {
+    display: block;
+    width: 25px;
+    height: 25px;
+    fill: var(--brdr-main1);
+    margin: auto;
+}
+
+.dropBtn {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dropBtn a {
+    width: 70%;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.dropBtn button {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    background-color: var(--bg-main1);
+    border: 1px solid var(--brdr-main3);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropBtn button:focus .dropBtn a {
+    background-color: var(--bg-hvr-main3);
+}
+
+.dropdownChild {
+    display: block;
+    /* use CSS transition to animate the sub menu height */
+    -webkit-transition: all .26s ease-in-out;
+    -moz-transition: all .26s ease-in-out;
+    -ms-transition: all .26s ease-in-out;
+    -o-transition: all .26s ease-in-out;
+    transition: all .26s ease-in-out;
+}
+
+.dropdownChild a {
+    background-color: var(--bg-main3);
+    font-weight: bolder;
+}
+
+.dropdownChildClose {
+    display: none;
+}
+
+.dropdownChild2 {
+    display: block;
+    /* use CSS transition to animate the sub menu height */
+    -webkit-transition: all .26s ease-in-out;
+    -moz-transition: all .26s ease-in-out;
+    -ms-transition: all .26s ease-in-out;
+    -o-transition: all .26s ease-in-out;
+    transition: all .26s ease-in-out;
+}
+
+.dropdownChild2Close {
+    display: none;
+}

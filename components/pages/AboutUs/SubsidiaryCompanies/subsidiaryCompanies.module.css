@@ -1,0 +1,82 @@
+.imageTop {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.imageTop:lang(en) {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 100px;
+}
+.imageTop img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+.iconMain {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+.socialBody {
+  display: block;
+  width: 80%;
+  margin: auto;
+  border-left: 5px solid #efac1f;
+  border-right: 5px solid #efac1f;
+}
+.part2 {
+  display: block;
+  width: 90%;
+  margin: auto;
+  margin-top: 70px;
+  direction: rtl;
+  margin-bottom: 70px;
+}
+.part2 p {
+  direction: rtl;
+}
+.SubsidiaryCompaniesParts {
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+@media screen and (max-width: 1300px) {
+  .imageTop {
+    margin-top: 72px;
+  }
+  .part2 {
+    display: block;
+  }
+  .part2:lang(en) {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .part2 img {
+    width: 100%;
+    height: auto;
+  }
+  .part2 img:lang(en) {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 776px) {
+  .imageTop {
+    margin-top: 50px;
+  }
+  .imageTop:lang(en) {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+}

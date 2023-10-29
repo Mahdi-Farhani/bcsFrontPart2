@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* fonts : */
+@font-face {
+  font-family: "englishFont";
+  src: url("../asset/fonts/HelveticaLTStd-Light.otf"),
+    url("../asset/fonts/HelveticaLTStd-Bold.otf"),
+    url("../asset/fonts/IRANSansWeb\(FaNum\).ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "persianFont";
+  src: url("../asset/fonts/Vazir.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "arabicFont";
+  src: url("../asset/fonts/Vazir.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* english : */
+:lang(en) {
+  font-family: "englishFont", Arial, sans-serif;
+}
+
+/* persian : */
+:lang(fa) {
+  font-family: "persianFont", sans-serif;
+}
+
+/* persian : */
+:lang(ar) {
+  font-family: "arabicFont", sans-serif;
+}
+
+/* Light Theme : */
+#my-app[data-theme="light"] {
+  /*--------- colors for BackGround : */
+  --bg-main1: #fff;
+  --bg-main2: #00bed7;
+  --bg-main3: #cbccce;
+  --bg-main4: #f4f5fa;
+  /*--------- colors for BackGround Hover : */
+  /* for #00bed7 : */
+  --bg-hvr-main1: #009aae;
+  /* for #cbccce : */
+  --bg-hvr-main2: #b6b6b6;
+  /* for #cbccce : */
+  --bg-hvr-main3: #d6d7df;
+  /*--------- colors for Text : */
+  --txt-main1: #414142;
+  --txt-main2: #cbccce;
+  --txt-main3: #efac1f;
+  --txt-main4: #fff;
+  /* Error , Danger , Wrong */
+  --txt-main-err: #b00020;
+  /* Success , Safe , Right */
+  --txt-main-succ: #4bb543;
+  /* Warning , Caution */
+  --txt-main-warn: #ffcc00;
+  /*--------- colors for Text Hover : */
+  /* for #414142 : */
+  --txt-hvr-main1: #575758;
+  /* for #cbccce : */
+  --txt-hvr-main2: #b6b6b6;
+  /* for #efac1f : */
+  --txt-hvr-main3: #de9600;
+  /* for Error , Danger , Wrong */
+  --txt-hvr-err: #890019;
+  /* for Success , Safe , Right */
+  --txt-hvr-succ: #228e1a;
+  /* for Warning , Caution */
+  --txt-hvr-warn: #228e1a;
+  /*--------- colors for border : */
+  --brdr-main1: #414142;
+  --brdr-main2: #cbccce;
+  --brdr-main3: #efac1f;
+  --brdr-main4: #fff;
+  /* Error , Danger , Wrong */
+  --brdr-err: #b00020;
+  /* Success , Safe , Right */
+  --brdr-succ: #4bb543;
+  /* Warning , Caution */
+  --brdr-warn: #ffcc00;
+  /*--------- colors for border Hover : */
+  /* for #414142 : */
+  --brdr-hvr-main1: #333335;
+  /* for #cbccce : */
+  --brdr-hvr-main2: #b6b6b6;
+  /* for #efac1f : */
+  --brdr-hvr-main3: #de9600;
+  /* for Error , Danger , Wrong */
+  --brdr-hvr-err: #890019;
+  /* for Success , Safe , Right */
+  --brdr-hvr-succ: #228e1a;
+  /* for Warning , Caution */
+  --brdr-hvr-warn: #228e1a;
+}
+
+/* Dark Theme : */
+#my-app[data-theme="dark"] {
+  /*--------- colors for BackGround : */
+  --bg-main1: #414142;
+  --bg-main2: #009aae;
+  --bg-main3: #cbccce;
+  /*--------- colors for BackGround Hover : */
+  /* for #00bed7 : */
+  --bg-hvr-main1: #008495;
+  /* for #cbccce : */
+  --bg-hvr-main2: #b6b6b6;
+  /*--------- colors for Text : */
+  --txt-main1: #fff;
+  --txt-main2: #cbccce;
+  --txt-main3: #efac1f;
+  --txt-main4: #414142;
+  /* Error , Danger , Wrong */
+  --txt-main-err: #b00020;
+  /* Success , Safe , Right */
+  --txt-main-succ: #4bb543;
+  /* Warning , Caution */
+  --txt-main-warn: #ffcc00;
+  /*--------- colors for Text Hover : */
+  /* for #414142 : */
+  --txt-hvr-main1: #333335;
+  /* for #cbccce : */
+  --txt-hvr-main2: #b6b6b6;
+  /* for #efac1f : */
+  --txt-hvr-main3: #de9600;
+  /* for Error , Danger , Wrong */
+  --txt-hvr-err: #890019;
+  /* for Success , Safe , Right */
+  --txt-hvr-succ: #228e1a;
+  /* for Warning , Caution */
+  --txt-hvr-warn: #228e1a;
+  /*--------- colors for border : */
+  --brdr-main1: #fff;
+  --brdr-main2: #cbccce;
+  --brdr-main3: #efac1f;
+  --brdr-main4: #414142;
+  /* Error , Danger , Wrong */
+  --brdr-err: #b00020;
+  /* Success , Safe , Right */
+  --brdr-succ: #4bb543;
+  /* Warning , Caution */
+  --brdr-warn: #ffcc00;
+  /*--------- colors for border Hover : */
+  /* for #414142 : */
+  --brdr-hvr-main1: #333335;
+  /* for #cbccce : */
+  --brdr-hvr-main2: #b6b6b6;
+  /* for #efac1f : */
+  --brdr-hvr-main3: #de9600;
+  /* for Error , Danger , Wrong */
+  --brdr-hvr-err: #890019;
+  /* for Success , Safe , Right */
+  --brdr-hvr-succ: #228e1a;
+  /* for Warning , Caution */
+  --brdr-hvr-warn: #228e1a;
+}
+
+/* paginations style : */
+.rc-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  direction: ltr;
+}
+
+.rc-pagination-item,
+.rc-pagination-prev,
+.rc-pagination-jump-prev,
+.rc-pagination-jump-next {
+  margin-right: 8px;
+  list-style: none;
+}
+
+.rc-pagination-total-text {
+  margin-right: 12px;
+  cursor: initial;
+}
+
+.rc-pagination-jump-next,
+.rc-pagination-jump-prev,
+.rc-pagination-next,
+.rc-pagination-prev {
+  display: inline-block;
+  min-width: 28px;
+  height: 28px;
+  color: rgba(0, 0, 0, 0.85);
+  font-family: Arial;
+  line-height: 28px;
+  text-align: center;
+  vertical-align: middle;
+  list-style: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.rc-pagination-jump-next button,
+.rc-pagination-jump-prev button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #666;
+}
+
+.rc-pagination-jump-next button:after,
+.rc-pagination-jump-prev button:after {
+  display: block;
+  content: "•••";
+}
+
+.rc-pagination-item,
+.rc-pagination-prev,
+.rc-pagination-next,
+.rc-pagination-total-text {
+  min-width: initial;
+  height: auto;
+  line-height: initial;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.rc-pagination-item a,
+.rc-pagination-item button,
+.rc-pagination-prev a,
+.rc-pagination-prev button,
+.rc-pagination-next a,
+.rc-pagination-next button,
+.rc-pagination-total-text a,
+.rc-pagination-total-text button {
+  padding: 6px 8px;
+  height: auto;
+  min-width: 32px;
+  min-height: 32px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: #656f84 !important;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.rc-pagination-item.rc-pagination-item-active a,
+.rc-pagination-item.rc-pagination-item-active a:hover,
+.rc-pagination-prev.rc-pagination-item-active a,
+.rc-pagination-prev.rc-pagination-item-active a:hover,
+.rc-pagination-next.rc-pagination-item-active a,
+.rc-pagination-next.rc-pagination-item-active a:hover,
+.rc-pagination-total-text.rc-pagination-item-active a,
+.rc-pagination-total-text.rc-pagination-item-active a:hover {
+  background-color: var(--bg-main2);
+  border-color: var(--bg-main2);
+  color: var(--txt-main4) !important;
+}
+
+.rc-pagination-item a:hover,
+.rc-pagination-item button:hover,
+.rc-pagination-prev a:hover,
+.rc-pagination-prev button:hover,
+.rc-pagination-next a:hover,
+.rc-pagination-next button:hover,
+.rc-pagination-total-text a:hover,
+.rc-pagination-total-text button:hover {
+  background-color: var(--bg-hvr-main2);
+  border-color: var(--bg-hvr-main2);
+}
+
+.pagination-data li {
+  list-style: none;
+}

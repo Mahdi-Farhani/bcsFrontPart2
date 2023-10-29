@@ -1,0 +1,63 @@
+.profilePage {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.profilePage h1 {
+    display: block;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--brdr-main1);
+}
+
+.inputsPart {
+    display: grid;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.inputsPart label {
+    font-size: 18px;
+}
+
+.inputsPart input {
+    border-radius: 15px;
+    height: 40px;
+    border: 1px solid;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+.inputsPart p {
+    font-size: 18px;
+}
+
+.uploadBTtn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--txt-main4);
+    background-color: var(--bg-main2);
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}

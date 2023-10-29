@@ -1,0 +1,40 @@
+.nextButton {
+    position: absolute;
+    border-radius: 50%;
+    top: var(--swiper-navigation-top-offset, 50%);
+    right: 0;
+    width: 60px;
+    height: 60px;
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    right: 10px;
+}
+
+.nextButton:hover {
+    opacity: 90%;
+}
+
+.prevButton {
+    position: absolute;
+    border-radius: 50%;
+    top: var(--swiper-navigation-top-offset, 50%);
+    width: 60px;
+    height: 60px;
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(180deg);
+    left: 10px;
+}
+
+.prevButton:hover {
+    opacity: 90%;
+}

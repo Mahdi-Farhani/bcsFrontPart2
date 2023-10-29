@@ -1,0 +1,296 @@
+.box:lang(fa),
+.box:lang(ar) {
+  display: block;
+  margin: auto;
+  padding: 0.125rem;
+  width: 30rem;
+  height: 82rem;
+  box-sizing: border-box;
+  border: 1px solid var(--brdr-main2);
+  background-color: var(--bg-main1);
+  z-index: 2;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+  direction: rtl;
+}
+.box:lang(en) {
+  display: block;
+  margin: auto;
+  padding: 0.125rem;
+  width: 30rem;
+  height: 82rem;
+  box-sizing: border-box;
+  border: 1px solid var(--brdr-main2);
+  background-color: var(--bg-main1);
+  z-index: 2;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.inputBox:lang(fa) button,
+.inputBox:lang(ar) button {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-20%, -50%);
+  background-color: var(--bg-main1);
+  border: 1px solid var(--bg-main1);
+}
+.inputBox:lang(en) button {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translate(-20%, -50%);
+  background-color: var(--bg-main1);
+  border: 1px solid var(--bg-main1);
+}
+
+.inputBox button:hover .showIcon {
+  fill: var(--txt-hvr-main3);
+}
+
+.showIcon {
+  width: 25px;
+  height: 25px;
+  display: block;
+  fill: var(--txt-main3);
+}
+
+.box a {
+  width: 100%;
+}
+
+.box a img {
+  width: 230px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.box h2 {
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  color: var(--txt-main1);
+  border-bottom: 2px solid var(--brdr-main2);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.box form {
+  display: block;
+  height: 40rem;
+  margin-top: 40px;
+}
+
+.box p {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.box:lang(fa) .inputBox,
+.box:lang(ar) .inputBox {
+  position: relative;
+}
+.box:lang(en) .inputBox {
+  position: relative;
+}
+
+.box .inputBox input {
+  display: block;
+  margin: auto;
+  width: 93%;
+  padding: 0.625rem 10px;
+  font-size: 1rem;
+  letter-spacing: 0.062rem;
+  margin-bottom: 1.875rem;
+  border: 1px solid #ccc;
+  background: transparent;
+  border-radius: 4px;
+}
+
+.box:lang(fa) .inputBox label,
+.box:lang(ar) .inputBox label {
+  position: absolute;
+  top: -1.125rem;
+  right: 45px;
+  padding: 0.625rem 0;
+  font-size: 0.75rem;
+  background-color: #fff;
+  color: gray;
+  height: 10px;
+  pointer-events: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.box:lang(en) .inputBox label {
+  position: absolute;
+  top: -1.125rem;
+  left: 25px;
+  padding: 0.625rem 0;
+  font-size: 0.75rem;
+  background-color: #fff;
+  color: gray;
+  height: 10px;
+  pointer-events: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label {
+  color: var(--bg-main2);
+}
+
+.box .inputBox input:focus {
+  outline: none;
+  border: 2px solid var(--bg-main2);
+}
+
+.submitBTN {
+  width: 87%;
+  margin-right: 1.76rem;
+  margin-bottom: 2rem;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: var(--brdr-main3);
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  border-radius: 0.312rem;
+  font-size: 1rem;
+  float: right;
+}
+
+.submitBTN:hover {
+  background-color: var(--brdr-hvr-main3);
+  box-shadow: 0 1px 1px 0 rgba(66, 133, 244, 0.45),
+    0 1px 3px 1px rgba(66, 133, 244, 0.3);
+}
+
+.policy {
+  width: 85%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.policy input {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.policy label {
+  color: var(--txt-main1);
+}
+
+.footer {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.footer p {
+  display: block;
+  width: 50%;
+  color: var(--txt-main1);
+  margin: auto;
+  margin-right: 0;
+  text-align: center;
+}
+
+.footer a {
+  width: 50%;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-left: 0;
+  color: var(--bg-main2);
+}
+
+.footer a:hover {
+  color: var(--bg-hvr-main1);
+}
+
+.allIcons {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+  height: 40px;
+  margin: auto;
+}
+
+.iconsSvg {
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.iconsSvg:hover {
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.footer2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.footer2 span {
+  height: 2px;
+  width: 40%;
+  display: block;
+  background-color: var(--bg-main3);
+}
+
+.footer2 p {
+  width: 15%;
+  display: block;
+  line-height: 8px;
+}
+
+.errorMessage {
+  width: 100%;
+  text-align: start !important;
+  display: block;
+  margin: auto;
+  color: #b00020;
+}
+
+@media screen and (max-width: 1300px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 776px) {
+}
+
+@media screen and (max-width: 490px) {
+  .box {
+    width: 100%;
+    box-shadow: none;
+  }
+  .box a img {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .submitBTN {
+    margin: auto;
+  }
+}

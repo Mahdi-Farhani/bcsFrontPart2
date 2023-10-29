@@ -1,0 +1,163 @@
+.imageTop {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.imageTop:lang(en) {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 100px;
+}
+.imageTop img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+
+.historyBody {
+  display: block;
+  width: 80%;
+  margin: auto;
+  border-left: 5px solid #efac1f;
+  border-right: 5px solid #efac1f;
+}
+
+.part1 {
+  display: block;
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.part1 h2 {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.part1 h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #414142;
+}
+
+.part1 p {
+  display: block;
+  line-height: 30px;
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.part2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  direction: ltr;
+}
+
+.part2 img {
+  width: 700px;
+  height: auto;
+  display: block;
+  margin: auto;
+  margin-left: 0;
+}
+
+.part22 h2 {
+  width: 80%;
+  margin: auto;
+  font-size: 25px;
+  margin-bottom: 20px;
+  direction: rtl;
+}
+
+.part22 p {
+  width: 80%;
+  margin: auto;
+  display: block;
+  line-height: 40px;
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 40px;
+  direction: rtl;
+}
+.part2:lang(en) {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  direction: ltr;
+}
+
+.part2:lang(en) img {
+  width: 700px;
+  height: auto;
+  display: block;
+  margin: auto;
+  margin-left: 0;
+  direction: ltr;
+}
+
+.part22:lang(en) h2 {
+  width: 80%;
+  margin: auto;
+  font-size: 25px;
+  margin-bottom: 20px;
+  direction: ltr;
+}
+
+.part22:lang(en) p {
+  width: 80%;
+  margin: auto;
+  display: block;
+  line-height: 40px;
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 40px;
+  direction: ltr;
+}
+
+.historyImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+@media screen and (max-width: 1300px) {
+  .imageTop {
+    margin-top: 72px;
+  }
+
+  .part2 {
+    display: block;
+  }
+  .part2:lang(en) {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .part2 img {
+    width: 100%;
+    height: auto;
+  }
+  .part2 img:lang(en) {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 776px) {
+  .imageTop {
+    margin-top: 50px;
+  }
+  .imageTop:lang(en) {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+}

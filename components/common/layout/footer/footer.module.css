@@ -1,0 +1,203 @@
+/* Footer styles */
+#footer {
+  background-color: #414142;
+  color: #cbccce;
+  padding: 40px;
+  margin-top: auto;
+  z-index: 2;
+}
+
+.allFooterContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.allFooterContent div {
+  width: 33.3%;
+}
+
+/* About Us section styles */
+.footerAboutUs h2 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footerAboutUs p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.footerAboutUs ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footerAboutUs li {
+  margin-bottom: 10px;
+}
+
+.footerAboutUs li a {
+  color: #cbccce;
+  text-decoration: none;
+}
+
+.footerAboutUs li a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Us section styles */
+.footerContactUs {
+  text-align: center;
+}
+
+.footerContactUs h2 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footerContactUs address {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.footerContactUs address a {
+  color: #cbccce;
+  text-decoration: none;
+}
+
+.footerContactUs address a:hover {
+  text-decoration: underline;
+}
+
+.footerContactUsContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Social Media section styles */
+.footerSocialMedia {
+  width: 200px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.footerSocialMedia ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  border-top: 3px solid #efac1f;
+}
+
+.footerSocialMedia h2 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footerSocialMedia ul {
+  list-style: none;
+  margin: 0;
+}
+
+.footerSocialMedia li {
+  display: inline-block;
+}
+
+.footerSocialMedia li:last-child {
+  margin-right: 0;
+}
+
+.footerSocialMedia li a {
+  display: block;
+}
+
+.footerSocialMedia li a:hover {
+  color: white;
+}
+
+.socialBtn {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+}
+
+.socialIcon {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  border-radius: 3px;
+  fill: var(--bg-main2);
+}
+
+.socialIcon:hover {
+  fill: var(--bg-hvr-main1);
+}
+
+/* Disclaimer section styles */
+.footerDisclaimer p {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.footerDisclaimer p:last-child {
+  margin-bottom: 0;
+}
+
+.terms {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.terms a {
+  font-size: 18px;
+  color: var(--txt-main2);
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+.terms a:hover {
+  border-bottom: 2px solid;
+}
+
+.logoBaspar {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+@media screen and (max-width: 1300px) {
+}
+
+@media screen and (max-width: 992px) {
+  .allFooterContent {
+    display: block;
+  }
+
+  .allFooterContent div {
+    width: 90%;
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+}
+
+@media screen and (max-width: 300px) {
+}

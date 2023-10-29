@@ -1,0 +1,145 @@
+.imageTop {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.imageTop:lang(en) {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 100px;
+}
+.imageTop img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+
+.historyBody {
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-left: 5px solid #efac1f;
+  border-right: 5px solid #efac1f;
+}
+
+.historyImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.catalogCart {
+  position: relative;
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.catalogPart1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.catalogPart1 img {
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  position: relative;
+  border-radius: 20px 20px 10px 10px;
+}
+.catalogPart1 a {
+  display: block;
+  margin: auto;
+  position: absolute;
+  bottom: -16%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.catalogPart1 button {
+  min-width: 200px;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #00bed7;
+  border: 1px solid #00bed7;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.catalogPart2 a {
+  display: block;
+  margin: auto;
+}
+.catalogPart2 button {
+  min-width: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #00bed7;
+  border: 1px solid;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.catalogPart1 button:hover {
+  background-color: #00abc2;
+}
+.catalogPart2 button:hover {
+  background-color: #00abc2;
+}
+.catalogPart2 img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+.catalogPart2 {
+  display: block;
+}
+@media screen and (max-width: 1300px) {
+  .imageTop {
+    margin-top: 72px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .catalogPart1 {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 776px) {
+  .imageTop {
+    margin-top: 50px;
+  }
+  .imageTop:lang(en) {
+    margin-top: 50px;
+  }
+  .catalogPart1 img {
+    width: 250px;
+    height: 250px;
+  }
+  .catalogPart2 img {
+    width: 250px;
+    height: 250px;
+  }
+  .catalogPart1 button {
+    min-width: 200px;
+  }
+  .catalogPart2 button {
+    min-width: 200px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+}

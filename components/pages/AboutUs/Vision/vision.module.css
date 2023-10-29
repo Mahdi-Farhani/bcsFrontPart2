@@ -1,0 +1,97 @@
+.imageTop {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 75px;
+}
+
+.imageTop img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+
+.historyBody {
+  display: block;
+  width: 80%;
+  margin: auto;
+  border-left: 5px solid #efac1f;
+  border-right: 5px solid #efac1f;
+}
+
+.part1 {
+  display: block;
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.part1 h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.part1 p {
+  display: block;
+  line-height: 30px;
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.part2 {
+  display: block;
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+}
+
+.part2 iframe {
+  width: 800px;
+  height: 450px;
+  margin: auto;
+  display: block;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+@media screen and (max-width: 1300px) {
+  .imageTop {
+    margin-top: 72px;
+  }
+
+  .part2 {
+    display: block;
+  }
+  .part2 iframe {
+    width: 480px;
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .part2 img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 776px) {
+  .imageTop {
+    margin-top: 50px;
+  }
+  .part2 iframe {
+    width: 320px;
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .part2 iframe {
+    width: 192px;
+    height: 108px;
+  }
+}

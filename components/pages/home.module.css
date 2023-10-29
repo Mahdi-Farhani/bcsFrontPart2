@@ -1,0 +1,463 @@
+.home {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.backgroundOfMainSliderBlog {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-image: url("/icons/image/blogs/backgroung/blogSliderBackground.jpg");
+  background-size: cover;
+}
+
+.allTitlebanner {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background-color: var(--bg-main1);
+  z-index: 3;
+  padding-bottom: 15px;
+}
+
+.allTitlebanner span {
+  width: 50%;
+  display: block;
+  height: 3px;
+  background-color: var(--bg-main2);
+  margin: auto;
+}
+
+.allTitle {
+  width: 300px;
+  display: block;
+  margin: auto;
+  color: var(--txt-main3);
+  font-weight: bold;
+  font-size: 50px;
+  padding: 15px;
+  text-align: center;
+  border: 3px solid var(--bg-main2);
+  border-radius: 15px;
+}
+
+.aboutBaspar {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin: auto;
+  margin-top: -4px;
+}
+
+.aboutBasparAll {
+  display: block;
+  position: relative;
+  background-color: #cbccce;
+}
+
+.textProductBaspar {
+  display: block;
+  position: absolute;
+  z-index: 3;
+  top: 5%;
+  width: 50%;
+  left: 5%;
+  font-size: 20px;
+  line-height: 60px;
+  text-align: justify;
+}
+
+.textAboutBaspar {
+  display: block;
+  position: absolute;
+  z-index: 3;
+  top: 30%;
+  width: 60%;
+  right: 5%;
+  font-size: 30px;
+  line-height: 60px;
+  text-align: justify;
+}
+
+.subNav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #00bed7;
+  margin-top: -4px;
+}
+
+.subNav span {
+  display: block;
+  height: 3px;
+  width: 20%;
+  margin: auto;
+  background-color: #fff;
+}
+
+.subNavDet {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+.subNavDet img {
+  width: 80px;
+  height: 80px;
+  display: block;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.subNavDet a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin: auto;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.basparImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+}
+
+.newsEvents {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.newsPart {
+  width: 1000px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.newsPartH1 {
+  display: block;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.newsPartH2 {
+  display: block;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.newsPartTop1 {
+  display: block;
+  position: relative;
+}
+
+.newsPartTop2 {
+  display: block;
+  position: relative;
+}
+
+.newsPartTop1 img {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.newsPartTop2 img {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.MainInfo {
+  width: 1300px;
+  direction: rtl;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+}
+.MainInfo img {
+  display: block;
+  width: 500px;
+  height: auto;
+  margin: auto;
+}
+.MainInfoDetail {
+  width: 95%;
+  display: block;
+  margin: auto;
+  color: #414142;
+}
+.MainInfoDetail button {
+  width: 150px;
+  display: block;
+  background-color: #00bed7;
+  color: white;
+  padding: 10px;
+  border: 1px solid #00bed7;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.MainInfoDetail h2 {
+  font-weight: bold;
+}
+.MainInfoDetail button:hover {
+  background-color: #00a4b9;
+}
+.MainInfoDetailSub {
+  font-weight: bold;
+  color: #717171;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.MainInfoDetailSub2 {
+  font-size: 100%;
+  text-align: justify;
+}
+.mainTitles {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mainIndustries {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 1300px;
+  margin: auto;
+}
+.industryCard {
+  width: 250px;
+  padding: 10px;
+  border: 2px solid #efac1f;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  margin-top: 30px;
+}
+.industryCard img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+.industryCard h4 {
+  display: block;
+  margin: auto;
+}
+.industrypart {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.mainBorder1 {
+  width: 308px;
+  height: 308px;
+  display: block;
+  background-image: url("/icons/image/mainPage/border2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mainBorder2 {
+  width: 308px;
+  height: 308px;
+  display: block;
+  background-image: url("/icons/image/mainPage/border1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mainNewsPart {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 1300px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.newsBtnArsh {
+  width: 150px;
+  display: block;
+  background-color: #00bed7;
+  color: white;
+  padding: 10px;
+  border: 1px solid #00bed7;
+  margin: auto;
+  font-size: 16px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.newsBtnArsh:hover {
+  background-color: #00a4b9;
+}
+@media screen and (max-width: 1300px) {
+  .allTitle {
+    font-size: 35px;
+  }
+
+  .textAboutBaspar {
+    font-size: 20px;
+    line-height: 30px;
+    top: 25%;
+  }
+
+  .textProductBaspar {
+    font-size: 15px;
+    line-height: 27px;
+  }
+
+  .newsEvents {
+    display: block;
+  }
+
+  .newsPart {
+    width: 80%;
+    margin: auto;
+  }
+
+  .subNavDet img {
+    width: 50px;
+    height: 50px;
+    display: block;
+  }
+
+  .subNavDet {
+    width: 200px;
+  }
+
+  .subNavDet a {
+    font-size: 15px;
+  }
+  .MainInfo {
+    width: 90%;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .allTitle {
+    font-size: 35px;
+  }
+  .textAboutBaspar {
+    font-size: 17px;
+    line-height: 30px;
+    top: 15%;
+  }
+
+  .textProductBaspar {
+    font-size: 12px;
+    line-height: 19px;
+  }
+
+  .newsPart {
+    width: 95%;
+    margin: auto;
+  }
+  .mainIndustries {
+    width: 90%;
+    grid-template-columns: 1fr 1fr;
+  }
+  .mainBorder1 {
+    display: none;
+  }
+  .mainBorder2 {
+    display: none;
+  }
+  .mainNewsPart {
+    display: block;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 776px) {
+  .allTitle {
+    font-size: 35px;
+  }
+
+  .textAboutBaspar {
+    font-size: 11px;
+    line-height: 15px;
+    top: 15%;
+  }
+
+  .textProductBaspar {
+    top: 2%;
+    font-size: 8px;
+    line-height: 12px;
+  }
+
+  .subNavDet img {
+    width: 40px;
+    height: 40px;
+    display: block;
+  }
+
+  .subNavDet {
+    width: 150px;
+  }
+
+  .subNavDet a {
+    font-size: 12px;
+  }
+  .mainIndustries {
+    grid-template-columns: 1fr;
+  }
+  .MainInfo img {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .allTitle {
+    font-size: 35px;
+  }
+
+  .textAboutBaspar {
+    font-size: 7px;
+    line-height: 10.5px;
+    top: 15%;
+  }
+
+  .textProductBaspar {
+    top: 1%;
+    font-size: 5px;
+    line-height: 8px;
+  }
+  .subNav {
+    grid-template-columns: 1fr 1fr;
+  }
+  .MainInfo img {
+    width: 290px;
+  }
+  .newsPartH1 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .allTitle {
+    font-size: 35px;
+  }
+}

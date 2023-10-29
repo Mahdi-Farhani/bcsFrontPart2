@@ -1,0 +1,17 @@
+.st0 {
+    fill: white;
+    stroke-width: 20;
+    stroke-miterlimit: 10;
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.st1 {
+    fill: #00BED7;
+}
+
+.st2 {
+    fill: #EFAC1F;
+}

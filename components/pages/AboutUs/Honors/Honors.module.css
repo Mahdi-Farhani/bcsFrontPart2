@@ -1,0 +1,152 @@
+.imageTop {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 75px;
+}
+
+.imageTop img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+
+.imageTop h1 {
+  position: absolute;
+  color: var(--txt-main4);
+  z-index: 3;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  font-size: 120px;
+  border-bottom: 5px solid white;
+  padding-bottom: 10px;
+}
+
+.historyBody {
+  display: block;
+  width: 80%;
+  margin: auto;
+  border-left: 5px solid #efac1f;
+  border-right: 5px solid #efac1f;
+}
+
+.honorImg:lang(en) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+}
+
+.honorImg:lang(en) img {
+  width: 100%;
+  height: auto;
+}
+
+.honorImg:lang(en) li {
+  list-style: none;
+  font-size: 18px;
+  line-height: 30px;
+}
+.honorImg {
+  display: block;
+  direction: ltr;
+  margin-top: 30px;
+}
+
+.honorImg img {
+  width: 100%;
+  height: auto;
+  width: 500px;
+  height: 500px;
+}
+
+.honorImg li {
+  width: 90%;
+  margin: auto;
+  list-style: none;
+  font-size: 18px;
+  line-height: 30px;
+  direction: rtl;
+  text-align: right;
+}
+
+.honorsPart2 {
+  width: 90%;
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.honorsPart2 h1 {
+  color: #efac1f;
+}
+
+.honorsPart2 p {
+  display: block;
+  line-height: 60px;
+  font-size: 18px;
+}
+
+.honorsPart3 {
+  width: 90%;
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.honorsPart3 h1 {
+  color: #efac1f;
+}
+
+.honorsPart3 p {
+  display: block;
+  line-height: 60px;
+  font-size: 18px;
+}
+
+.honorsPart4 {
+  width: 90%;
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.honorsPart4 h1 {
+  color: #efac1f;
+}
+
+.honorsPart4 p {
+  display: block;
+  line-height: 60px;
+  font-size: 18px;
+}
+
+.honorsPart5 {
+  width: 90%;
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.honorsPart5 h1 {
+  color: #efac1f;
+}
+
+.honorsPart5 p {
+  display: block;
+  line-height: 60px;
+  font-size: 18px;
+}
+@media screen and (max-width: 1300px) {
+  .honorImg {
+    display: block;
+  }
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 786px) {
+}
+@media screen and (max-width: 450px) {
+}

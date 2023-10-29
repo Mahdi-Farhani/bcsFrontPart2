@@ -1,0 +1,191 @@
+.topSProduct {
+  display: block;
+  width: 100%;
+  height: 400px;
+  margin-top: 100px;
+  padding-top: 26.5px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+.background {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.topSProductDetail {
+  max-width: 1300px;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.imgPart img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+.detailPart {
+  display: block;
+  margin: auto;
+  margin-left: 20px;
+  line-height: 60px;
+}
+.detailPart h2 {
+  font-size: 40px;
+}
+.detailPart p {
+  display: block;
+  font-size: 25px;
+}
+.buttonPart {
+  display: block;
+  margin: auto;
+  margin-right: 10px;
+}
+.buttonPart a {
+  display: block;
+}
+.buttonPart button {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  background-color: white;
+  border: 1px solid #414142;
+  border-radius: 15px;
+  margin-top: 20px;
+  padding: 10px;
+}
+.buttonPart button:hover {
+  background-color: rgb(230, 230, 230);
+}
+.buttonPart button img {
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+.buttonPart button p {
+  display: block;
+  margin: auto;
+  font-size: 17px;
+  font-weight: bold;
+}
+.bodyDetail {
+  max-width: 1300px;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  text-align: justify;
+}
+.bodyDetail h1 {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.bodyDetail p {
+  color: #414142;
+  line-height: 40px;
+  font-size: 20px;
+  max-width: 1300px;
+  padding-top: 20px;
+  margin-top: 30px;
+  border-top: 3px dotted #cbccce;
+}
+.titleBodyPart:lang(en) {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  margin-bottom: 30px;
+  margin: auto;
+}
+.titleBodyPart {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  margin-bottom: 30px;
+  margin: auto;
+}
+.titleBodyPart img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: auto;
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+.titleBodyPart h1 {
+  display: block;
+  margin: auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+.tablePart {
+  width: 1300px;
+  margin: auto;
+  margin-bottom: 80px;
+  margin-top: 30px;
+  padding-top: 50px;
+  border-top: 3px dotted #cbccce;
+}
+.tablePart td {
+  text-align: center;
+}
+.tablePart td,
+.tablePart th {
+  padding: 30px;
+  border-bottom: 2px solid #cbcccc;
+  font-size: 18px;
+}
+.discriptionPart {
+  direction: rtl;
+  text-align: justify;
+}
+.discriptionPart:lang(en) {
+  direction: ltr;
+  text-align: justify;
+}
+@media screen and (max-width: 1300px) {
+  .topSProductDetail {
+    display: block;
+  }
+  .topSProduct {
+    height: auto;
+    padding-bottom: 40px;
+  }
+  .buttonPart button {
+    margin: auto;
+    margin-top: 20px;
+  }
+  .detailPart {
+    text-align: center;
+  }
+  .discriptionPart {
+    width: 90%;
+    margin: auto;
+  }
+  .tablePart {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 786px) {
+}
+@media screen and (max-width: 450px) {
+  .imgPart img {
+    width: 250px;
+    height: 250px;
+  }
+  .tablePart td,
+  .tablePart th {
+    font-size: 13px;
+  }
+  .bodyDetail p {
+    font-size: 15px;
+  }
+}

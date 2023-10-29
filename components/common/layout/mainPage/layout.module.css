@@ -1,0 +1,11 @@
+/* this file  */
+
+#body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#mainContent {
+  min-height: 100vh;
+}

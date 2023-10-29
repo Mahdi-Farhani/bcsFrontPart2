@@ -1,0 +1,25 @@
+.allSlider {
+    display: block;
+    width: 100%;
+    overflow-x: hidden;
+    margin-top: 150px;
+}
+
+.slides {
+    display: block;
+    width: 400px;
+    height: 473px;
+    border-radius: 30px;
+}
+
+.slides div:nth-child(1) {
+    width: 100%;
+    margin: auto;
+}
+
+
+
+.mySwiper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

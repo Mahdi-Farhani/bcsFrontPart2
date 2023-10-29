@@ -1,0 +1,99 @@
+.editSide {
+    display: flex;
+    justify-content: center;
+}
+
+.editSide i {
+    display: block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.editSide button {
+    display: block;
+    background-color: var(--bg-main4);
+    border: 1px solid var(--bg-main4);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.editSide button:hover {
+    background-color: var(--bg-main3);
+}
+
+
+.productList {
+    display: block;
+    width: 95%;
+    margin: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.productList h1 {
+    text-align: center;
+}
+
+.productListAll {
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.productListAll td,
+.productListAll th {
+    border-bottom: 1px solid var(--brdr-main2);
+    padding: 10px;
+    text-align: center;
+}
+
+.RightAngle {
+    width: 40px;
+    height: 40px;
+    display: block;
+    transform: rotate(180deg);
+    fill: var(--brdr-main3);
+}
+
+.LeftAngle {
+    width: 40px;
+    height: 40px;
+    display: block;
+    fill: var(--brdr-main3);
+}
+
+.addBtnOn {
+    width: 200px;
+    height: 30px;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid var(--bg-main2);
+    color: var(--txt-main1);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.addBtnOn:hover {
+    background-color: var(--bg-main2);
+    color: var(--txt-main4);
+}
+
+.addBtnOff {
+    display: none;
+}
+
+.nullProduct {
+    background-color: var(--txt-main-err);
+    color: var(--txt-main4);
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

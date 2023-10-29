@@ -1,0 +1,314 @@
+.titleOfBlogs {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: var(--txt-main1);
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 123.5px;
+  position: relative;
+}
+
+.titleOfBlogs img {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 12px 12px 0px rgba(0, 0, 0, 0.2);
+}
+
+.titleOfBlogs h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.borderOnderOfFilterBox {
+  width: 90%;
+  height: 1px;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: #cbccce;
+}
+
+.allNewsPart {
+  max-width: 1300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 40px;
+  background-color: var(--bg-main1);
+  margin: auto;
+}
+
+.allNewsPartList {
+  max-width: 1300px;
+  display: block;
+  margin-bottom: 40px;
+  background-color: var(--bg-main1);
+  margin: auto;
+}
+
+.allNewsPartPagination {
+  background-color: var(--bg-main1);
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+.searchBarPart {
+  margin-top: 73px;
+}
+
+/* Show : */
+.changeSize {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-left: 5%;
+}
+
+.changeSize span {
+  width: 1px;
+  height: 50px;
+  display: block;
+  background-color: var(--txt-main1);
+}
+
+.ListView {
+  width: 50px;
+  height: 50px;
+  display: block;
+  cursor: pointer;
+  padding: 5px;
+  background-color: var(--bg-main1);
+  border: 1px solid var(--brdr-main1);
+  border-radius: 10px;
+  fill: var(--txt-main1);
+}
+
+.ListView:hover {
+  background-color: var(--bg-hvr-main2);
+}
+
+.GridView {
+  width: 50px;
+  height: 50px;
+  display: block;
+  cursor: pointer;
+  padding: 5px;
+  background-color: var(--bg-main1);
+  border: 1px solid var(--brdr-main1);
+  border-radius: 10px;
+  fill: var(--txt-main1);
+}
+
+.GridView:hover {
+  background-color: var(--bg-hvr-main2);
+}
+
+/* pagination part : */
+
+.RightAngle {
+  width: 40px;
+  height: 40px;
+  display: block;
+  transform: rotate(180deg);
+  fill: var(--brdr-main3);
+}
+
+.LeftAngle {
+  width: 40px;
+  height: 40px;
+  display: block;
+  fill: var(--brdr-main3);
+}
+.allFilterBox {
+  display: block;
+
+  margin-top: 40px;
+}
+
+.searchBarPart {
+  display: block;
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.searchBarPart input {
+  display: block;
+  width: 80%;
+  height: 40px;
+  border-radius: 10px 10px 0 0;
+  border: 1px solid var(--txt-main1);
+  padding: 10px;
+  font-size: 20px;
+  margin: auto;
+}
+
+.searchBarPart p {
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.optionBarPart {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+.optionBarPart p {
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.optionBarPart div input {
+  display: none;
+}
+
+.optionBarPart div span {
+  display: block;
+  height: 40px;
+  width: 1px;
+  background-color: var(--txt-main1);
+}
+
+.optionBarPartDetail {
+  display: flex;
+  border-radius: 10px 10px 0 0;
+  width: 80%;
+  cursor: pointer;
+  margin: auto;
+}
+
+.optionBarPartDetail select {
+  width: 100%;
+  height: 40px;
+  display: block;
+  margin: auto;
+  border: 1px solid var(--txt-main1);
+  background-color: var(--bg-main1);
+  border-radius: 10px 10px 0 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*  This section is located in the search bar : */
+.resultPart {
+  position: absolute;
+  top: 79px;
+  left: 10%;
+  display: none;
+  width: 80%;
+  max-height: 300px;
+  overflow-y: auto;
+  background-color: var(--bg-main1);
+  border: 1px solid var(--txt-main1);
+  z-index: 2;
+}
+.part1Search {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  width: 95%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.part2Search {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  width: 95%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.searchBtn {
+  width: 150px;
+  padding: 10px;
+  display: block;
+  background-color: #00bed7;
+  border: 1px solid #00bed7;
+  border-radius: 15px;
+  color: white;
+  margin: auto;
+  cursor: pointer;
+}
+.searchBtn:hover {
+  background-color: #00a5bb;
+}
+.notFound {
+  width: 250px;
+  color: #414142;
+  background-color: #ffcc00;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+@media screen and (min-width: 2200px) {
+  .allNewsPart {
+    max-width: 90%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .allNewsPart {
+    width: 992px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .titleOfBlogs h1 {
+    font-size: 76px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .allNewsPart {
+    width: 786px;
+    grid-template-columns: 1fr;
+  }
+  .titleOfBlogs h1 {
+    font-size: 60px;
+  }
+  .part1Search {
+    display: block;
+  }
+  .part2Search {
+    display: block;
+  }
+  .optionBarPart {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .allNewsPart {
+    width: 450px;
+    grid-template-columns: 1fr;
+  }
+  .titleOfBlogs h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .allNewsPart {
+    width: 300px;
+    grid-template-columns: 1fr;
+  }
+  .titleOfBlogs h1 {
+    font-size: 25px;
+  }
+}

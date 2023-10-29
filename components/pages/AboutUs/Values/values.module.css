@@ -1,0 +1,85 @@
+.imageTop {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 75px;
+}
+
+.imageTop img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+
+.imageTop h1 {
+  position: absolute;
+  color: var(--txt-main4);
+  z-index: 3;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  font-size: 120px;
+  border-bottom: 5px solid white;
+  padding-bottom: 10px;
+}
+
+.historyBody {
+  display: block;
+  width: 80%;
+  margin: auto;
+  border-left: 5px solid #efac1f;
+  border-right: 5px solid #efac1f;
+}
+
+.part1 {
+  display: block;
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.part1 h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.part1 li {
+  list-style: inside;
+  line-height: 30px;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1300px) {
+  .imageTop {
+    margin-top: 72px;
+  }
+
+  .imageTop h1 {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .imageTop h1 {
+    font-size: 75px;
+  }
+}
+
+@media screen and (max-width: 776px) {
+  .imageTop {
+    margin-top: 50px;
+  }
+
+  .imageTop h1 {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .imageTop h1 {
+    font-size: 18px;
+  }
+}

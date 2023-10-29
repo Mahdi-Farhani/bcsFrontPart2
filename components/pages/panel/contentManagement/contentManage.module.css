@@ -1,0 +1,186 @@
+.addNews {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.addNews h1 {
+    text-align: center;
+}
+
+.titlePart {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titlePart textarea {
+    border-radius: 15px 15px 0 15px;
+}
+
+.textInput {
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+    height: 40px;
+    border: 1px solid;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.photosPart {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.photosPart1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.photosDis {
+    color: var(--txt-main2);
+}
+
+.mainPhoto {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.mainPhotoPart1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.photosPart label {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    cursor: pointer;
+}
+
+.mainPhoto label {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    cursor: pointer;
+}
+
+.photosPart label p {
+    display: block;
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.mainPhoto label p {
+    display: block;
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.photosPart input {
+    display: none;
+}
+
+.mainPhoto input {
+    display: none;
+}
+
+.previewPhotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.previewPhotos img {
+    border-radius: 15px;
+}
+
+.pPhotos {
+    display: block;
+    width: 200px;
+    height: auto;
+}
+
+.photoSelect {
+    display: block;
+    width: 100px;
+}
+
+.numSelected {
+    display: block;
+    background-color: #4BB543;
+    width: 200px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.uploadNews {
+    background-color: var(--bg-main2);
+    color: var(--txt-main4);
+    display: block;
+    width: 300px;
+    height: 55px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 15px;
+    margin: auto;
+    transition: auto;
+    cursor: pointer;
+}
+
+.uploadNews:hover {
+    background-color: var(--bg-hvr-main1);
+}
+
+.showPart {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.showPartRadio {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.radioInput {
+    display: block;
+    margin-right: 15px;
+    height: 20px;
+    width: 20px;
+
+}
+
+.label {
+    display: block;
+    font-size: 18px;
+}
+
+.labelH {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}

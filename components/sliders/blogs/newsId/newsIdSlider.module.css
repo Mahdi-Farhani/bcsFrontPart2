@@ -1,0 +1,62 @@
+.allNewsPicSlider {
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.mainImage {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.newsPicSlider {
+    height: 80%;
+    width: 100%;
+}
+
+.nextButton {
+    position: absolute;
+    border-radius: 50%;
+    top: var(--swiper-navigation-top-offset, 50%);
+    right: 0;
+    width: 60px;
+    height: 60px;
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    right: 10px;
+}
+
+.nextButton:hover {
+    opacity: 90%;
+}
+
+.prevButton {
+    position: absolute;
+    border-radius: 50%;
+    top: var(--swiper-navigation-top-offset, 50%);
+    width: 60px;
+    height: 60px;
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(180deg);
+    left: 10px;
+}
+
+.prevButton:hover {
+    opacity: 90%;
+}

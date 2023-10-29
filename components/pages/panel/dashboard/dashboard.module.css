@@ -1,0 +1,312 @@
+.mainContentPartOne {
+    width: 100%;
+    display: block;
+}
+
+.mainContentPartTwo {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.mainContentPartThree {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.statusBox {
+    display: block;
+    width: 95%;
+    height: 200px;
+    margin: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.chartBox1 {
+    display: block;
+    width: 90%;
+    height: 380px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.chartTitle {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.chartTitleTotal {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.moreVert {
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.moreVert:hover {
+    border-radius: 50%;
+    background-color: var(--bg-main3);
+}
+
+.paragraph {
+    display: block;
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--txt-main1);
+}
+
+.statusParagraph {
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--txt-main1);
+}
+
+.salesBtn {
+    width: 100%;
+    display: block;
+    margin: auto;
+    background-color: var(--brdr-main3);
+    border: 1px solid var(--brdr-main3);
+    border-radius: 20px;
+    padding: 5px;
+    color: var(--txt-main4);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.salesBtn:hover {
+    background-color: var(--brdr-hvr-main3);
+}
+
+.statusfooter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 25px;
+}
+
+.statusSales {
+    display: flex;
+    justify-content: space-between;
+}
+
+.statusSalesSpanOne {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    background-color: #9155FD;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.statusSalesSpanTwo {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    background-color: #56CA00;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.statusSalesSpanThree {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    background-color: #FFB400;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.statusSalesSpanFour {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    background-color: #16B1FF;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.statusSalesDetails {
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+.statusSalesDetails p:nth-child(1) {
+    display: block;
+    color: var(--txt-main2);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.statusSalesDetails p:nth-child(2) {
+    display: block;
+    color: var(--txt-main1);
+}
+
+.earningBox {
+    display: block;
+    width: 92%;
+    height: 420px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.earningPrice {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+
+.earningPrice p {
+    display: block;
+    margin: auto;
+    margin-left: 5px;
+    color: #56CA00;
+}
+
+.earningPriceParagraph {
+    font-size: 14px;
+}
+
+.salesChartIcon {
+    width: 35px;
+    height: 35px;
+    display: block;
+    fill: #fff;
+    margin: auto;
+}
+
+.customerIcon {
+    width: 35px;
+    height: 35px;
+    display: block;
+    fill: #fff;
+    margin: auto;
+}
+
+.upIcon {
+    width: 35px;
+    height: 35px;
+    display: block;
+    fill: #56CA00;
+    margin: auto;
+    margin-left: 5px;
+    margin-right: 0px;
+}
+
+.productEarning {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #cbccce;
+}
+
+.productEarningLeft {
+    display: block;
+}
+
+.productEarningLeft h4 {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--txt-main1);
+}
+
+.productEarningLeft p {
+    display: block;
+    color: var(--txt-main2);
+}
+
+.productEarningRight {
+    display: block;
+    margin: auto;
+    margin-right: 0;
+    color: var(--txt-main1);
+}
+
+.earningDetailPart {
+    display: block;
+    height: 280px;
+    overflow-y: auto;
+}
+
+.mainContentPartThreeLeft {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 97%;
+}
+
+.totalBox {
+    display: block;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.totalBoxRight {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: var(--txt-main1);
+}
+
+.totalBoxRight p {
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.chartTitleSpan {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-left: 0;
+    padding: 10px;
+    background-color: #56CA00;
+    fill: #fff;
+    border-radius: 50%;
+}
+
+.totalBoxDate {
+    display: block;
+    color: var(--txt-main2);
+}
+

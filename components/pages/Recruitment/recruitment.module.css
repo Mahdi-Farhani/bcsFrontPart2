@@ -1,0 +1,436 @@
+.recruitmentForm {
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  width: 95%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.stepForm {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: space-around;
+  padding-top: 30px;
+  list-style: none;
+}
+.stepForm li {
+  margin: auto;
+  text-align: center;
+}
+.stepForm li button {
+  padding: 5px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+  background-color: #cbccce;
+  border: 1px solid #00bed7;
+  color: #414142;
+  font-weight: bold;
+}
+.stepForm span {
+  width: 10%;
+  height: 2px;
+  display: block;
+  background-color: #cbccce;
+  margin: auto;
+}
+/* active step : */
+.listActive {
+  background-color: #00bed7 !important;
+  color: #fff !important;
+}
+
+.imageTop {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.imageTop img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+
+.imageTop h1 {
+  position: absolute;
+  color: white;
+  z-index: 3;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+  font-size: 120px;
+  border-bottom: 5px solid white;
+  padding-bottom: 10px;
+}
+
+.historyBody {
+  display: block;
+  width: 80%;
+  margin: auto;
+  border-left: 5px solid #efac1f;
+  border-right: 5px solid #efac1f;
+}
+
+.part1 {
+  display: block;
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.datePicker {
+  display: block;
+}
+
+.datePicker label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.datePicker input {
+  height: 40px;
+}
+
+.submitBTN {
+  display: block;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #00bed7;
+  color: white;
+  border: 1px solid;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.submitBTN:hover {
+  background-color: #02a2b8;
+}
+
+.radioPart {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  direction: ltr;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mainTitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px;
+  border-bottom: 3px solid #00bed7;
+  margin-bottom: 20px;
+}
+
+.mainTitleForm {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px;
+  border: 3px dotted;
+  margin-bottom: 20px;
+}
+
+.formPart1 {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.formPart2 {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+.formPart2 select {
+  display: block;
+  width: 20%;
+  height: 40px;
+  border-radius: 15px;
+  border: 1px solid #efac1f;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.formPart2 input[type="checkbox"] {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #efac1f;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.tip {
+  font-size: 18px;
+  color: #414142;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px dotted;
+}
+
+.tip span {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: red;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+.formPart1 input {
+  display: block;
+  width: 70%;
+  height: 40px;
+  border-radius: 15px;
+  border: 1px solid #efac1f;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.formPart1 input[type="checkbox"] {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #efac1f;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.formPart1 textarea {
+  display: block;
+  width: 70%;
+  height: 40px;
+  border-radius: 15px 15px 15px 0;
+  border: 1px solid #efac1f;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.formPart1 select {
+  display: block;
+  width: 70%;
+  height: 40px;
+  border-radius: 15px;
+  border: 1px solid #efac1f;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.submitBtn {
+  width: 250px;
+  height: 50px;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #00bed7;
+  border: 1px solid;
+  border-radius: 15px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.submitBtn:hover {
+  background-color: #0090a3;
+}
+
+.birthDate label {
+  display: block;
+}
+
+.birthDate input {
+  text-align: center;
+}
+
+.dateInput {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+.mainForm {
+  padding: 20px;
+}
+.dateInput input {
+  width: 30%;
+  display: block;
+}
+.allStepButtons {
+  display: flex;
+  justify-content: space-around;
+}
+.buttonStepSubmit {
+  width: 150px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background-color: #00bed7;
+  border: 1px solid #00bed7;
+  color: white;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 18px;
+}
+.maritalStatus {
+  width: 90%;
+}
+.recFormFirstPart {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 95%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.recFormFirstPartP2 {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  border: 1px solid #cbccce;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.recFormFirstPartP2V1 h3 {
+  width: 96%;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.recFormFirstPartP2V1Detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.recFormDetailPart {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.recFormDetailPart img {
+  display: block;
+  margin: auto;
+}
+.recFormDetailPart p {
+  display: block;
+  margin: auto;
+  margin-right: 0;
+}
+.btnRecFormRequest {
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  width: 150px;
+  height: 50px;
+  font-size: 17px;
+  background-color: #00bed7;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btnRecFormRequest:hover {
+  background-color: #00aac0;
+}
+@media screen and (max-width: 1300px) {
+  .part2 {
+    display: block;
+  }
+
+  .imageTop h1 {
+    font-size: 100px;
+  }
+
+  .formPart1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .part2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .formPart1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .recFormFirstPart {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 776px) {
+  .formPart1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .formPart1 input {
+    width: 100%;
+  }
+
+  .formPart1 select {
+    width: 100%;
+  }
+
+  .formPart1 textarea {
+    width: 100%;
+  }
+
+  .formPart2 select {
+    width: 100%;
+  }
+
+  .mainTitleForm {
+    font-size: 18px;
+  }
+
+  .mainTitle {
+    font-size: 18px;
+  }
+
+  .submitBtn {
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+  }
+
+  .formPart1 label {
+    font-size: 15px;
+  }
+
+  .formPart2 label {
+    font-size: 15px;
+  }
+}

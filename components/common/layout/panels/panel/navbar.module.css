@@ -1,0 +1,308 @@
+.header {
+    display: block;
+    width: 100%;
+    height: 70px;
+    background-color: var(--bg-main4);
+}
+
+.partOne {
+    display: flex;
+    width: 200px;
+    height: 70px;
+    margin: auto;
+    margin-right: 10%;
+}
+
+.partOne button {
+    background-color: var(--bg-main4);
+    border: 1px solid var(--bg-main4);
+    display: block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: auto;
+}
+
+.partOne button:hover {
+    background-color: var(--bg-hvr-main2);
+    border: 1px solid var(--bg-hvr-main2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.themeIcon {
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    fill: var(--txt-main1);
+}
+
+.profilePic {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    cursor: pointer;
+    position: relative;
+    border-radius: 50%;
+}
+
+
+.profilePic img {
+    width: 60px;
+    height: 60px;
+    display: block;
+    border-radius: 50%;
+}
+
+.profilePic span {
+    width: 18px;
+    height: 18px;
+    display: block;
+    position: absolute;
+    background-color: #4BB543;
+    bottom: 0;
+    right: 5px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.noti {
+    background-color: var(--bg-main4);
+    border: 1px solid var(--bg-main4);
+    display: block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: auto;
+    position: relative;
+}
+
+.noti:hover {
+    background-color: var(--bg-hvr-main2);
+    border: 1px solid var(--bg-hvr-main2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.notiIcons {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    fill: var(--txt-main1);
+}
+
+.notiNumber {
+    font-size: 12px;
+    color: white;
+    background-color: #B00020;
+    width: 20px;
+    height: 20px;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    line-height: 20px;
+}
+
+.notiDetail {
+    display: block;
+    width: 350px;
+    background-color: var(--txt-main1);
+    position: absolute;
+    top: 51px;
+    left: -156px;
+    color: var(--txt-main4);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.notiContentClose {
+    display: none;
+}
+
+.notiTitle {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--brdr-main2);
+    padding-bottom: 10px;
+}
+
+.notiContent {
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+
+.notiContent span {
+    width: 100%;
+    display: block;
+    height: 2px;
+    background-color: var(--brdr-main2);
+}
+
+.notiTitle p:nth-child(1) {
+    padding: 5px;
+}
+
+.notiTitle p:nth-child(2) {
+    background-color: var(--bg-main2);
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.profileDD {
+    display: block;
+    width: 250px;
+    background-color: var(--txt-main1);
+    position: absolute;
+    top: 65px;
+    left: -100px;
+    color: var(--txt-main4);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.profileDDClose {
+    display: none;
+}
+
+.pofileDetail {
+    display: flex;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--brdr-main2);
+}
+
+.Pdetails {
+    display: block;
+    margin: auto;
+    margin-left: 10px;
+}
+
+.Pdetails p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Icons {
+    width: 40px;
+    height: 40px;
+    display: block;
+    fill: var(--txt-main4);
+    margin: auto;
+    margin-left: 10px;
+}
+
+.pofileDetail2 {
+    border-bottom: 2px solid var(--brdr-main2);
+}
+
+.pofileDetail2 div {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.pofileDetail2 div p {
+    text-align: left;
+    width: 50%;
+    line-height: 35px;
+}
+
+.pofileDetail2 div:hover {
+    background-color: var(--bg-main2);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.pofileDetail3 div {
+    display: flex;
+    margin-top: 15px;
+}
+
+.pofileDetail3 div:hover {
+    background-color: var(--bg-main2);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.pofileDetail3 div p {
+    text-align: left;
+    width: 50%;
+    line-height: 35px;
+}
+
+.alertBtn {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.yesBtn {
+    cursor: pointer;
+    display: block;
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+    border: 1px solid var(--brdr-main4);
+    border-radius: 10px;
+    background-color: #4BB543;
+    color: white;
+}
+
+.yesBtn:hover {
+    background-color: #228e1a;
+}
+
+.noBtn {
+    cursor: pointer;
+    display: block;
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+    border: 1px solid var(--brdr-main4);
+    border-radius: 10px;
+    background-color: #B00020;
+    color: white;
+}
+
+.noBtn:hover {
+    background-color: #890019;
+}
+
+.alertClose {
+    width: 40px;
+    height: 40px;
+    display: block;
+    fill: var(--bg-main1);
+    background-color: #B00020;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.alertClose:hover {
+    background-color: #890019;
+}
+
+.cancelAlertClose {
+    display: none;
+}
+
+.alertCart {
+    display: block;
+}
+
+.cancelAlert {
+    display: none;
+}

@@ -1,0 +1,227 @@
+/* profile part : */
+.partOfprofilePic {
+    height: 79px;
+    width: 60px;
+    display: block;
+}
+
+.profilePic {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    margin-top: 8px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 50%;
+}
+
+.profilePic img {
+    width: 55px;
+    height: 55px;
+    display: block;
+    border-radius: 50%;
+
+}
+
+.profilePic span {
+    width: 18px;
+    height: 18px;
+    display: block;
+    position: absolute;
+    background-color: #4BB543;
+    bottom: 0;
+    right: 5px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.profileDD {
+    display: block;
+    width: 250px;
+    background-color: var(--txt-main1);
+    color: var(--txt-main4);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.profileDDClose {
+    display: none;
+}
+
+.pofileDetail {
+    display: flex;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--brdr-main2);
+}
+
+.Pdetails {
+    display: block;
+    margin: auto;
+    margin-left: 10px;
+}
+
+.Pdetails p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.arrowDropDown {
+    display: block;
+    width: 20px;
+    height: 20px;
+    fill: black;
+}
+.Icons {
+    width: 35px;
+    height: 35px;
+    display: block;
+    fill: var(--txt-main4);
+    margin: auto;
+    margin-left: 10px;
+}
+
+.pofileDetail2 {
+    border-bottom: 2px solid var(--brdr-main2);
+}
+
+.pofileDetail2 div {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.pofileDetail2 div p {
+    text-align: left;
+    width: 70%;
+    line-height: 35px;
+}
+
+.pofileDetail2 div:hover {
+    background-color: var(--bg-main2);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.pofileDetail3 div {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+
+}
+
+.pofileDetail3 div:hover {
+    background-color: var(--bg-main2);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.pofileDetail3 div p {
+    text-align: left;
+    width: 70%;
+    line-height: 35px;
+}
+
+/* alert part : */
+
+.alertBtn {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.yesBtn {
+    cursor: pointer;
+    display: block;
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+    border: 1px solid var(--brdr-main4);
+    border-radius: 10px;
+    background-color: #4BB543;
+    color: white;
+}
+
+.yesBtn:hover {
+    background-color: #228e1a;
+}
+
+.noBtn {
+    cursor: pointer;
+    display: block;
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+    border: 1px solid var(--brdr-main4);
+    border-radius: 10px;
+    background-color: #B00020;
+    color: white;
+}
+
+.noBtn:hover {
+    background-color: #890019;
+}
+
+.alertClose {
+    width: 40px;
+    height: 40px;
+    display: block;
+    fill: var(--bg-main1);
+    background-color: #B00020;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.alertClose:hover {
+    background-color: #890019;
+}
+
+.cancelAlertClose {
+    display: none;
+}
+
+.alertCart {
+    display: block;
+}
+
+.cancelAlert {
+    display: none;
+}
+
+@media screen and (max-width: 786px) {
+    .profilePic {
+        width: 35px;
+        height: 35px;
+    }
+
+    .profilePic img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .profilePic span {
+        width: 14px;
+        height: 14px;
+        border: 2px solid white;
+    }
+
+    .profileDD {
+        top: 45px;
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .profileDD {
+        left: -75px;
+        top: 45px;
+        width: 160px;
+    }
+}

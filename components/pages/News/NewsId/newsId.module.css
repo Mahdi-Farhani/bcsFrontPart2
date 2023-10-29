@@ -1,0 +1,249 @@
+.navbarDistance {
+  width: 100%;
+  height: 71.5px;
+  display: block;
+}
+
+.partImageTitle {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+  z-index: 1;
+  top: -300px;
+}
+
+.partImageTitle span {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background-color: #000;
+  top: 0;
+  opacity: 0.8;
+}
+
+.partImageTitle img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 0;
+}
+
+.partImageTitle h1 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 80%);
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  font-size: 50px;
+  line-height: 80px;
+}
+
+.partImageTitle div {
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  height: 100px;
+  display: block;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 100px;
+  background-color: var(--bg-main1);
+  color: var(--txt-main1);
+  z-index: 5;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.DiscriptionNavbar {
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  position: relative;
+  z-index: 2;
+  top: -600px;
+  background-color: white;
+  padding-top: 100px;
+}
+
+.partLeftDiscription {
+  width: 80%;
+  display: block;
+  margin: auto;
+  border: 3px solid var(--txt-main3);
+  border-radius: 20px;
+}
+
+.partLeftDiscription p {
+  width: 90%;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.partRightNavbar {
+  width: 25%;
+  height: auto;
+  display: block;
+  margin-right: 20px;
+  margin-left: 20px;
+  border: 3px solid var(--txt-main3);
+  border-radius: 20px;
+}
+
+.allIcons {
+  width: 90%;
+  display: flex;
+  margin: auto;
+  justify-content: end;
+}
+
+.links {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.linksSvgOne {
+  width: 50px;
+  height: 50px;
+  display: block;
+  fill: #26a7de;
+}
+
+.linksSvgTwo {
+  width: 50px;
+  height: 50px;
+  display: block;
+  fill: #0072b1;
+}
+
+.linksSvgThree {
+  width: 50px;
+  height: 50px;
+  display: block;
+  fill: #4267b2;
+}
+
+.linksSvgFour {
+  width: 50px;
+  height: 50px;
+  display: block;
+  fill: #e4405f;
+}
+
+.categoryOfNews {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin: auto;
+}
+
+.shareAndCate {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #00bed7;
+}
+
+.categoryOfNews h2 {
+  display: block;
+  margin: auto;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.categoryOfNews p {
+  padding: 1px;
+  background-color: #00bed7;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 30px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+}
+.loading {
+  display: block;
+  margin: auto;
+  margin-top: 200px;
+}
+@media screen and (max-width: 1300px) {
+  .partImageTitle h1 {
+    font-size: 20px;
+  }
+  .partImageTitle {
+    top: -300px;
+  }
+  .partImageTitle {
+    top: -100px;
+  }
+  .DiscriptionNavbar {
+    top: -310px;
+  }
+  .partImageTitle h1 {
+    transform: translate(-50%, 50%);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .partLeftDiscription p {
+    font-size: 15px;
+  }
+  .links {
+    width: 30px;
+  }
+  .linksSvgOne {
+    width: 30px;
+  }
+  .linksSvgTwo {
+    width: 30px;
+  }
+  .linksSvgThree {
+    width: 30px;
+  }
+  .partImageTitle {
+    top: 0px;
+  }
+  .DiscriptionNavbar {
+    top: -200px;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .partImageTitle h1 {
+    width: 310px;
+    font-size: 16px;
+    line-height: 40px;
+    transform: translate(-50%, 30%);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .partImageTitle h1 {
+    font-size: 12px;
+    line-height: 40px;
+  }
+  .shareAndCate {
+    display: block;
+  }
+  .categoryOfNews {
+    width: 90%;
+  }
+}

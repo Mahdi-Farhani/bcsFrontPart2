@@ -1,0 +1,126 @@
+.cardBlogEn {
+    width: 400px;
+    height: 600px;
+    display: block;
+    margin: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-bottom: 35px;
+    direction: ltr;
+    position: relative;
+}
+
+.cardBlog {
+    width: 400px;
+    height: 600px;
+    display: block;
+    margin: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-bottom: 35px;
+    direction: rtl;
+    position: relative;
+}
+
+.mainImgBlogDate {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.mainImgBlog {
+    width: 100%;
+}
+
+.mainImgBlog img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 20px 20px 0 0;
+}
+
+.titleBlog {
+    width: 95%;
+    height: 250px;
+    display: block;
+    margin: auto;
+
+}
+
+.titleBlog h1 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.titleBlog h1 a {
+    color: #414142;
+}
+
+.titleBlog p {
+    color: #414142;
+    text-align: justify;
+}
+
+.dateOfBlogReadMore {
+    position: absolute;
+    width: 440px;
+    display: flex;
+    bottom: 10px;
+}
+
+.dateOfBlog {
+    width: 50%;
+    display: flex;
+}
+
+.dateOfBlog img {
+    display: block;
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.dateOfBlog p {
+    display: block;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.readMore {
+    display: block;
+    margin: auto;
+    background-color: #00bed7;
+    color: white;
+    padding: 13px;
+    border-radius: 15px;
+}
+
+.readMore:hover {
+    background-color: #00abc2;
+}
+
+@media screen and (max-width: 1300px) {
+    .cardBlogEn {
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .cardBlogEn {
+        height: 650px;
+    }
+
+
+}
+
+@media screen and (max-width: 450px) {
+    .dateOfBlogReadMore {
+        width: 300px;
+    }
+
+    .cardBlog {
+        width: 300px;
+    }
+}

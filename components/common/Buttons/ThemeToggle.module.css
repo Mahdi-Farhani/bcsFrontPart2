@@ -1,0 +1,90 @@
+.toggleCheckbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.toggleSlot {
+    position: relative;
+    height: 2em;
+    width: 4em;
+    border: 5px solid #e4e7ec;
+    border-radius: 2em;
+    background-color: white;
+    box-shadow: 0px 10px 25px #e4e7ec;
+    transition: background-color 250ms;
+}
+
+.toggleCheckbox[value="dark"]~.toggleSlot {
+    background-color: #374151;
+}
+
+.toggleButton {
+    transform: translate(2em, -4px);
+    position: absolute;
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    background-color: #ffeccf;
+    box-shadow: inset 0px 0px 0px 0.15em #ffbb52;
+    transition: background-color 250ms, border-color 250ms, transform 500ms cubic-bezier(.26, 2, .46, .71);
+}
+
+.toggleCheckbox[value="dark"]~.toggleSlot .toggleButton {
+    background-color: #485367;
+    box-shadow: inset 0px 0px 0px 0.15em white;
+    transform: translate(-3px, -5px);
+}
+
+.sunIcon {
+    position: absolute;
+    height: 2em;
+    width: 2em;
+    color: #ffbb52;
+}
+
+.sunIconWrapper {
+    position: absolute;
+    height: 2em;
+    width: 2em;
+    opacity: 1;
+    transform: translate(2em, 2em) rotate(15deg);
+    transform-origin: 50% 50%;
+    transition: opacity 150ms, transform 500ms cubic-bezier(.26, 2, .46, .71);
+}
+
+.toggleCheckbox[value="dark"]~.toggleSlot .sunIconWrapper {
+    opacity: 0;
+    transform: translate(3em, 2em) rotate(0deg);
+}
+
+.moonIcon {
+    position: absolute;
+    height: 2em;
+    width: 2em;
+    color: white;
+}
+
+.moonIconWrapper {
+    position: absolute;
+    height: 2em;
+    width: 2em;
+    opacity: 0;
+    transform: translate(11em, 2em) rotate(0deg);
+    transform-origin: 50% 50%;
+    transition: opacity 150ms, transform 500ms cubic-bezier(.26, 2.5, .46, .71);
+}
+
+.toggleCheckbox[value="dark"]~.toggleSlot .moonIconWrapper {
+    opacity: 1;
+    transform: translate(12em, 2em) rotate(-15deg);
+}
+
+.lable {
+    display: block;
+    margin: auto;
+    margin-right: 30px;
+    margin-left: 30px;
+}

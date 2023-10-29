@@ -1,0 +1,148 @@
+.imageSlider {
+  width: 100%;
+  height: 36.09%;
+}
+
+.allMainSlider {
+  display: block;
+  margin-top: 123.5px;
+  margin-bottom: -7px;
+}
+
+.nextButton {
+  position: absolute;
+  border-radius: 50%;
+  top: var(--swiper-navigation-top-offset, 50%);
+  left: var(--swiper-navigation-top-offset, 13%);
+  right: 0;
+  width: 150px;
+  height: 150px;
+  margin-top: calc(-180px - (var(--swiper-navigation-size) / 2));
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.nextButton:hover {
+  opacity: 90%;
+}
+
+.prevButton {
+  position: absolute;
+  border-radius: 50%;
+  top: var(--swiper-navigation-top-offset, 50%);
+  left: var(--swiper-navigation-top-offset, 3%);
+  width: 150px;
+  height: 150px;
+  margin-top: calc(-180px - (var(--swiper-navigation-size) / 2));
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(180deg);
+}
+
+.prevButton:hover {
+  opacity: 90%;
+}
+
+@media screen and (max-width: 1550px) {
+  .nextButton {
+    width: 120px;
+    height: 120px;
+    margin-top: calc(-220px - (var(--swiper-navigation-size) / 2));
+  }
+
+  .prevButton {
+    width: 120px;
+    height: 120px;
+    margin-top: calc(-220px - (var(--swiper-navigation-size) / 2));
+  }
+}
+.slides {
+  position: relative;
+}
+.slides img {
+  position: relative;
+}
+@media screen and (max-width: 1300px) {
+  .nextButton {
+    display: none;
+    width: 100px;
+    height: 100px;
+    margin-top: calc(-280px - (var(--swiper-navigation-size) / 2));
+  }
+
+  .prevButton {
+    display: none;
+    width: 100px;
+    height: 100px;
+    margin-top: calc(-90px - (var(--swiper-navigation-size) / 2));
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .allMainSlider {
+    margin-top: 100px;
+  }
+  .nextButton {
+    width: 70px;
+    height: 70px;
+    margin-top: calc(-70px - (var(--swiper-navigation-size) / 2));
+  }
+
+  .prevButton {
+    width: 70px;
+    height: 70px;
+    margin-top: calc(-70px - (var(--swiper-navigation-size) / 2));
+  }
+}
+
+@media screen and (max-width: 776px) {
+  .allMainSlider {
+    margin-top: 100px;
+  }
+  .nextButton {
+    width: 50px;
+    height: 50px;
+    margin-top: calc(-50px - (var(--swiper-navigation-size) / 2));
+  }
+
+  .prevButton {
+    width: 50px;
+    height: 50px;
+    margin-top: calc(-50px - (var(--swiper-navigation-size) / 2));
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .nextButton {
+    width: 35px;
+    height: 35px;
+    margin-top: calc(-23px - (var(--swiper-navigation-size) / 2));
+  }
+
+  .prevButton {
+    width: 35px;
+    height: 35px;
+    margin-top: calc(-23px - (var(--swiper-navigation-size) / 2));
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .nextButton {
+    width: 25px;
+    height: 25px;
+    margin-top: calc(-10px - (var(--swiper-navigation-size) / 2));
+  }
+
+  .prevButton {
+    width: 25px;
+    height: 25px;
+    margin-top: calc(-10px - (var(--swiper-navigation-size) / 2));
+  }
+}

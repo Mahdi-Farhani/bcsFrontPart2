@@ -1,0 +1,128 @@
+.verticalNav {
+    width: 300px;
+    background-color: var(--bg-main4);
+    height: auto;
+    flex: 0 0 auto;
+    transition: width .25s ease-in-out;
+}
+
+.contentList {
+    overflow-y: auto;
+}
+
+.verticalCompanyLogo {
+    width: 250px;
+    height: auto;
+    display: block;
+}
+
+.verticalCompanyLogo img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-left: 14px;
+    margin-bottom: 0;
+}
+
+.list {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 0 35px 35px 0;
+}
+
+.list:hover {
+    background-color: var(--bg-hvr-main2);
+}
+
+.listActive {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 0 35px 35px 0;
+    background-image: linear-gradient(98deg, #009aae, #00bed7 94%)
+}
+
+.list a {
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    color: var(--txt-main1);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.listActive a {
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    color: var(--txt-main4);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.listSvg {
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin: auto;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    fill: var(--txt-main1);
+}
+
+.listSvgDashboard {
+    display: block;
+    width: 35px;
+    height: 20px;
+    margin: auto;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    fill: var(--txt-main1);
+}
+
+.listActive .listSvgDashboard {
+    fill: var(--txt-main4);
+}
+
+.listActive .listSvg {
+    fill: var(--txt-main4);
+}
+
+.spanLine {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.21px;
+}
+
+.spanLine p {
+    font-size: 13px;
+}
+
+.spanLine span:nth-child(1) {
+    width: 10%;
+    height: 2px;
+    display: block;
+    background-color: rgba(58, 53, 65, 0.12);
+    margin-top: 6.5px;
+}
+
+.spanLine span:nth-child(3) {
+    width: 50%;
+    height: 2px;
+    display: block;
+    background-color: rgba(58, 53, 65, 0.12);
+    margin-top: 6.5px;
+}
