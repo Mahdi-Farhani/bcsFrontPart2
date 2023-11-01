@@ -1,5 +1,5 @@
 import Image from "next/image";
-import style from "./SubsidiaryCompanies.module.css";
+import style from "./subsidiaryCompanies.module.css";
 import mainImg from "@/asset/banner/25.png";
 import img1 from "@/asset/banner/baspar.png";
 import img2 from "@/asset/banner/26.jpg";
