@@ -27,7 +27,7 @@ COPY --from=build /build/yarn.lock ./
 # Clean install dependencies based package-lock
 RUN yarn install --production
 
-FROM gcr.io/distroless/nodejs:18
+FROM node:18-alpine
 
 WORKDIR /app
 
